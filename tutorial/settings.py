@@ -83,7 +83,7 @@ DATABASES = {
         'HOST': 'db',
         'PORT': '3306',
         'NAME': 'tutorialdb',
-        'USER': 'root',
+        'USER': 'chitrang',
         'PASSWORD': 'test123'
     }
 }
