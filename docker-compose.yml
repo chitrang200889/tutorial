@@ -13,7 +13,7 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - ./dbdata:/var/lib/mysql
+      - dbdata:/var/lib/mysql
   backend:
     build: .
     command: python manage.py runserver 0.0.0.0:8000  
@@ -23,3 +23,6 @@ services:
       - .:/app
     depends_on:
       - db
+
+volumes: 
+  dbdata:
