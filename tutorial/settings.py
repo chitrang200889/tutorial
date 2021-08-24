@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # DEBUG = True
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = ['localhost','0.0.0.0','ec2-54-152-136-42.compute-1.amazonaws.com']
+ALLOWED_HOSTS = ['localhost','0.0.0.0','ec2-54-205-194-11.compute-1.amazonaws.com']
 
 
 # Application definition
